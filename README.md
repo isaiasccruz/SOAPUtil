@@ -20,4 +20,5 @@ Desta forma haverá mais facilidade de transformar os dados em uma classe tipada
 Sugiro usar algumas ferramentas online de conversão para facilitar o desenvolvimento
     
 XML --> JSON: http://www.utilities-online.info/xmltojson/#.X_im-ebPyHu
+
 JSON --> C#: https://app.quicktype.io/?l=csharp
