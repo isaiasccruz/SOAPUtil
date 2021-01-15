@@ -13,7 +13,7 @@ Essencialmente os contratos SOAP WCF não permitem a abstração e modificação
 	<RepositoryUrl>https://github.com/isaiasccruz/SOAPUtil</RepositoryUrl>
 	<RepositoryType>GitHub</RepositoryType>
 	<PackageTags>SOAP, Soap without WCF, simple SOAP request</PackageTags>
-	<PackageLicenseExpression>oy2pca6gkyn53jglnyiad2gf5elkqf5u3lgqb7i33ggkme</PackageLicenseExpression>
+	<PackageLicenseExpression></PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
