@@ -9,6 +9,11 @@
 	<Description>O intuito desse projeto é simplificar as requisições SOAP para não existir a necessidade de ficar preso aos contratos burocráticos do WCF permitindo escalabilidade e maleabilidade das requisições O conceito é bem simples, e dará uma maleabilidade maior para o desenvolvedor em trabalhar as requisições e seus retornos de forma mais transparente. Usando metodos mais eficientes e customizaveis para coletar o SOAP/XML e o transformar em JSON para que seja mais facilmente serializado usando as bibliotecas da NewtonSoft.Json com suas annotations
 
 Essencialmente os contratos SOAP WCF não permitem a abstração e modificação de suas classes e objetos de forma amigável Com esse projeto será facil criar Headers e parametros para a requisição assim como o XML de retorno será transformado em um JSON. Desta forma haverá mais facilidade de transformar os dados em uma classe tipada ou um objeto dinamico em construção da forma que o DEV quiser!</Description>
+	<PackageProjectUrl>https://github.com/isaiasccruz/SOAPUtil</PackageProjectUrl>
+	<RepositoryUrl>https://github.com/isaiasccruz/SOAPUtil</RepositoryUrl>
+	<RepositoryType>GitHub</RepositoryType>
+	<PackageTags>SOAP, Soap without WCF, simple SOAP request</PackageTags>
+	<PackageLicenseExpression>oy2pca6gkyn53jglnyiad2gf5elkqf5u3lgqb7i33ggkme</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
