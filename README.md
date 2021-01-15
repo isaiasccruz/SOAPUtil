@@ -17,7 +17,7 @@ Desta forma haverá mais facilidade de transformar os dados em uma classe tipada
         - O projeto tem uma classe "SOAPParametrosUtil" que tem as propriedades de parametros e um metodo de extensão (AdicionaEditaKeyValueDicionarioDeHeaders) para construção do dicionario <string,string> de headers (caso o request tenha custom headers)
     - Por fim o método irá reconhecer o o tipo da classe do objeto para que consiga serializar o JSON corretamente para a sua classe!
     
-    Sugiro usar algumas ferramentas online de conversão para facilitar o desenvolvimento
+Sugiro usar algumas ferramentas online de conversão para facilitar o desenvolvimento
     
-    XML --> JSON: http://www.utilities-online.info/xmltojson/#.X_im-ebPyHu
-    JSON --> C#: https://app.quicktype.io/?l=csharp
+XML --> JSON: http://www.utilities-online.info/xmltojson/#.X_im-ebPyHu
+JSON --> C#: https://app.quicktype.io/?l=csharp
