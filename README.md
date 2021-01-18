@@ -1,8 +1,9 @@
 # SOAPUtil
 
-O intuito desse projeto é simplificar as requisições SOAP para não existir a necessidade de ficar preso aos contratos burocráticos do WCF permitindo escalabilidade e maleabilidade das requisições
+O intuito desse projeto é simplificar as requisições SOAP para não existir a necessidade de ficar preso aos contratos burocráticos do WCF permitindo escalabilidade e maleabilidade das requisições.
+
 O conceito é bem simples, e dará uma maleabilidade maior para o desenvolvedor em trabalhar as requisições e seus retornos de forma mais transparente.
-Usando metodos mais eficientes e customizaveis para coletar o SOAP/XML e o transformar em JSON para que seja mais facilmente serializado usando as bibliotecas da NewtonSoft.Json com suas annotations
+Usando metodos mais eficientes e customizaveis para coletar o SOAP/XML e o transformar em JSON para que seja mais facilmente serializado usando as bibliotecas da NewtonSoft.Json com suas annotations.
     
 Essencialmente os contratos SOAP WCF não permitem a abstração e modificação de suas classes e objetos de forma amigável
 Com esse projeto será facil criar Headers e parametros para a requisição assim como o XML de retorno será transformado em um JSON.
