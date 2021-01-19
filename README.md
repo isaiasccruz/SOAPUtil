@@ -1,4 +1,4 @@
-# SOAPUtil
+# SOAPUtil [![NuGet](https://buildstats.info/nuget/SOAPUtil)](https://www.nuget.org/packages/SOAPUtil/)
 
 O intuito desse projeto é simplificar as requisições SOAP para não existir a necessidade de ficar preso aos contratos burocráticos do WCF permitindo escalabilidade e maleabilidade das requisições.
 
