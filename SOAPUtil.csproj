@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
 	<PackageId>SOAPUtil</PackageId>
-	<Version>1.0.0</Version>
+	<Version>1.0.1</Version>
 	<Authors>Isaias_Cruz</Authors>
 	<Company>Isaias_Cruz</Company>
 	<Description>O intuito desse projeto é simplificar as requisições SOAP para não existir a necessidade de ficar preso aos contratos burocráticos do WCF permitindo escalabilidade e maleabilidade das requisições O conceito é bem simples, e dará uma maleabilidade maior para o desenvolvedor em trabalhar as requisições e seus retornos de forma mais transparente. Usando metodos mais eficientes e customizaveis para coletar o SOAP/XML e o transformar em JSON para que seja mais facilmente serializado usando as bibliotecas da NewtonSoft.Json com suas annotations
@@ -12,12 +12,24 @@ Essencialmente os contratos SOAP WCF não permitem a abstração e modificação
 	<PackageProjectUrl>https://github.com/isaiasccruz/SOAPUtil</PackageProjectUrl>
 	<RepositoryUrl>https://github.com/isaiasccruz/SOAPUtil</RepositoryUrl>
 	<RepositoryType>GitHub</RepositoryType>
-	<PackageTags>SOAP, Soap without WCF, simple SOAP request</PackageTags>
+	<PackageTags>SOAPUtil, Soap without WCF, simple SOAP request, SOAP sem wcf, soap sem wcf, soap_sem_wcf, Requisição soap simples</PackageTags>
 	<PackageLicenseExpression></PackageLicenseExpression>
+	<AssemblyVersion>1.0.1.1</AssemblyVersion>
+	<FileVersion>1.0.1.1</FileVersion>
+	<NeutralLanguage>pt-BR</NeutralLanguage>
+	<PackageIcon>icon.PNG</PackageIcon>
+	<PackageReleaseNotes>incluido o parametro de Dominio para requisição com NetworkCredentials</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="icon.PNG">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

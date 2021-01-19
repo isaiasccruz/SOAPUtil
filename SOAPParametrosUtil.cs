@@ -14,6 +14,7 @@ namespace SOAPUtil
         public bool usaNetworkCredentials { get; set; }
         public string networkCredentialsUsuario { get; set; }
         public string networkCredentialsSenha { get; set; }
+        public string networkCredentialsDominio { get; set; }        
         public string contentType { get; set; }
         public bool temHeaders { get; set; }
         public IDictionary<string, string> dicHeaders { get; set; }

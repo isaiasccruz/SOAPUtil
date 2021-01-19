@@ -171,7 +171,7 @@ namespace SOAPUtil
             }
             if (parametrosRequest.usaNetworkCredentials)
             {
-                webRequest.Credentials = new NetworkCredential(parametrosRequest.networkCredentialsUsuario, parametrosRequest.networkCredentialsSenha);
+                webRequest.Credentials = new NetworkCredential(parametrosRequest.networkCredentialsUsuario, parametrosRequest.networkCredentialsSenha,parametrosRequest.networkCredentialsDominio);
             }
             if (parametrosRequest.temHeaders)
             {
